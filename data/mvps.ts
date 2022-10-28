@@ -1347,4 +1347,4 @@ export const mvps = [
     },
     image: 'https://file5s.ratemyserver.net/mobs/20422.gif',
   },
-] as const;
+];
