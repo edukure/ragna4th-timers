@@ -21,3 +21,11 @@ export type MvpData<Id = number> = {
   };
   image: string;
 };
+
+export type TrackedMvp = {
+  id: number;
+  name: string;
+  spawn: Spawn;
+  image: string;
+  deathTime?: number;
+};
